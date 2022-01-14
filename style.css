@@ -18,6 +18,7 @@ header, main{
     background-color: blanchedalmond;
     
     
+    
 }
 .influencer{
     
@@ -114,11 +115,112 @@ li a{
     /* margin-left: 14px; */
     margin-right: 45px;
 }
+.line-spacing{
+    line-height: 140%;
+    margin-left: 5px;
+}
+.product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.product-price{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FB8200;
+    }
+.fa-star.empty{
+    color: #b3a596b2;;
+}
+.rating{
+    font-weight: bold;
+    font-size: 14px;
+    color: #5E6366;
+}
+.product-details{
+    font-weight: bold;
+    font-size: 14px;
+    color: #787885;
+}
 .see-more{
     float: right;
+    margin-bottom: 30px;
 }
 .anchor{
     text-decoration: none;
     color: #E02C6D;
     margin-right: 80px;
+}
+
+/* CCTV AND PRODUCT DETAILS */
+.bottom-featured{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.cctv img{
+    width: 440px;
+    height: 414px;
+    margin-left: 120px;
+}
+.feature{
+margin-right: 80px;
+
+}
+.feature-name{
+    font-weight: bold;
+    font-size: 38px;
+    color: #0A0826;;
+}
+.feture-details{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;;
+}
+.join-button{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-feature{
+    width: 1197px;
+    background-color: #0A0826;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 30px 0px;
+    line-height: 80%;
+}
+.footer-name{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.copyright{
+    font-weight: bold;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+/* .fa-envelope.filled, .fa-dribbble.filled, .fa-twitter-square.filled, .fa-facebook.filled,.fa-youtube.filled{
+    color: #FFFFFF;
+} */
+.font-aweosome{
+    color: #FFFFFF;
+    font-size: 12px;
 }
